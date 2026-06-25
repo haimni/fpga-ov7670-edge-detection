@@ -74,6 +74,11 @@ docs/           Diagrams and screenshots
 ```
 
 ---
+## FPGA Architecture
+
+The system uses the OV7670 camera module as an image source.
+Captured pixel data is streamed into the FPGA and processed through
+a real-time edge detection pipeline implemented in RTL logic.
 
 ## Author
 
